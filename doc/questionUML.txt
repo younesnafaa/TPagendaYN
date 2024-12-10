@@ -1,2 +1,5 @@
-Ecrire ici votre réponse à la question UML.
+La Figure 2 utilise la composition avec des classes comme `Repetition` et `Termination` pour gérer les comportements spécifiques des événements. Cette approche est plus modulaire et flexible, car elle permet d’ajouter ou de modifier des fonctionnalités sans toucher directement à la classe `Event`. Elle convient parfaitement à des systèmes évolutifs, mais elle nécessite une gestion plus complexe en raison du nombre de classes impliquées.
 
+La Figure 3, basée sur l’héritage, organise les comportements dans des sous-classes comme `RepetitiveEvent` et `FixedTerminationEvent`. Cette approche est simple à mettre en œuvre et facile à comprendre pour des projets où les besoins sont fixes. Cependant, elle manque de flexibilité : ajouter un nouveau type d’événement ou de comportement nécessite souvent de créer de nouvelles sous-classes, ce qui peut alourdir la hiérarchie.
+
+En conclusion, la Figure 2 est la meilleure option pour ce projet, car elle offre une plus grande flexibilité et une meilleure évolutivité, essentielles pour gérer efficacement les répétitions et les terminaisons des événements.
