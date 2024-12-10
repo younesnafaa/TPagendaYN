@@ -85,3 +85,4 @@ public class Event {
         return "Event{title='%s', start=%s, duration=%s}".formatted(myTitle, myStart, myDuration);
     }
 }
+

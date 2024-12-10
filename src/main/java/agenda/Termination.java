@@ -3,6 +3,7 @@ package agenda;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 
+
 public class Termination {
     private LocalDate terminationDate;
     private long occurrences;
